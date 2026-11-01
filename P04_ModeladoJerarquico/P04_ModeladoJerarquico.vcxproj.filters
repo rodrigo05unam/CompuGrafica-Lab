@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen"><UniqueIdentifier>{db557901-7d9f-499b-b42d-11db79c22bc6}</UniqueIdentifier></Filter>
+    <Filter Include="Archivos de encabezado"><UniqueIdentifier>{81d73e32-47fb-4b39-826c-299091e4b9f0}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders"><UniqueIdentifier>{599e2c55-d966-4c93-98bd-a73eaa57c07a}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Modelado_Jerarquico.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\core.frag"><Filter>Shaders</Filter></None>
+    <None Include="Shader\core.vs"><Filter>Shaders</Filter></None>
+  </ItemGroup>
+</Project>

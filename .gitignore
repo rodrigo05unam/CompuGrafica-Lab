@@ -1,0 +1,32 @@
+# Archivos que genera Visual Studio (se recrean solos al compilar).
+# Las reglas van "ancladas" a la raiz o a cada practica (/*/) para NO tocar
+# External Libraries, donde GLEW guarda sus .lib y .dll en carpetas bin/ y Release/.
+.vs/
+/[Dd]ebug/
+/[Rr]elease/
+/x64/
+/x86/
+/*/bin/
+/*/obj/
+/*/[Dd]ebug/
+/*/[Rr]elease/
+/*/x64/
+/*/x86/
+ipch/
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.opendb
+*.ilk
+*.pdb
+*.idb
+*.tlog
+*.lastbuildstate
+*.iobj
+*.ipdb
+
+# OJO: NO se ignoran *.obj, *.lib ni *.dll:
+#  - los .obj de Models/ son modelos 3D que las practicas necesitan
+#  - los .lib y .dll de External Libraries/ hacen falta para compilar

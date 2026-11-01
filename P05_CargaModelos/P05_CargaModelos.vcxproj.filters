@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen"><UniqueIdentifier>{fed8c0c0-2537-465a-b55a-02ef43467b68}</UniqueIdentifier></Filter>
+    <Filter Include="Archivos de encabezado"><UniqueIdentifier>{02f7b691-039d-44a0-809e-9fc9c753991d}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders"><UniqueIdentifier>{9d77a3a9-c029-43ef-8738-87668b9b51bb}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CargaModelos.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Mesh.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Model.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Shader.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="stb_image.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\modelLoading.frag"><Filter>Shaders</Filter></None>
+    <None Include="Shader\modelLoading.vs"><Filter>Shaders</Filter></None>
+  </ItemGroup>
+</Project>

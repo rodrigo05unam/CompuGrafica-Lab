@@ -1,0 +1,10 @@
+# Mantener los archivos de Visual Studio con saltos de linea de Windows
+*.sln       text eol=crlf
+*.vcxproj   text eol=crlf
+*.filters   text eol=crlf
+*.props     text eol=crlf
+# Binarios
+*.dll binary
+*.lib binary
+*.png binary
+*.jpg binary

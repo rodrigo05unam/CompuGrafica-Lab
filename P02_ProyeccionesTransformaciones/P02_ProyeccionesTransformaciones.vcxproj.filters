@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen"><UniqueIdentifier>{d5926ec5-764d-46cc-9aba-b00c1ec90a9c}</UniqueIdentifier></Filter>
+    <Filter Include="Archivos de encabezado"><UniqueIdentifier>{7e0b4e37-667d-41a1-ae2a-7c572d226b59}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders"><UniqueIdentifier>{2e881c71-0188-4317-a282-b978b25ff755}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main_P3.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Shader.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\core.frag"><Filter>Shaders</Filter></None>
+    <None Include="Shader\core.vs"><Filter>Shaders</Filter></None>
+  </ItemGroup>
+</Project>
