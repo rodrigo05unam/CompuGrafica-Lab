@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen"><UniqueIdentifier>{4f4c688a-ad0a-4cfb-995d-940ed99682c4}</UniqueIdentifier></Filter>
+    <Filter Include="Archivos de encabezado"><UniqueIdentifier>{69c86616-acf5-4e37-8836-ee738a1ce4c3}</UniqueIdentifier></Filter>
+    <Filter Include="Shaders"><UniqueIdentifier>{27253386-6149-4439-b13d-300ee8b1ef8a}</UniqueIdentifier></Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Maquina de estados.cpp"><Filter>Archivos de origen</Filter></ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Camera.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Mesh.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Model.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="Shader.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+    <ClInclude Include="stb_image.h"><Filter>Archivos de encabezado</Filter></ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\lamp.frag"><Filter>Shaders</Filter></None>
+    <None Include="Shader\lamp.vs"><Filter>Shaders</Filter></None>
+    <None Include="Shader\lighting.frag"><Filter>Shaders</Filter></None>
+    <None Include="Shader\lighting.vs"><Filter>Shaders</Filter></None>
+  </ItemGroup>
+</Project>

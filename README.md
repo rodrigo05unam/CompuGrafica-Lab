@@ -28,6 +28,7 @@ cada proyecto las encuentra con rutas relativas (archivo `Comun.props`).
 | `P06_Texturizado` | Texturizado (recortes y mosaico con transparencia) | W/A/S/D o flechas para moverse; mouse para girar |
 | `P07_MaterialesIluminacion` | Materiales e iluminación (2 luces) | W/A/S/D o flechas · O/L mueven la luz 1 · I/K mueven la luz 2 |
 | `P08_FuentesDeLuz` | Fuentes de luz (4 luces de colores, día y noche) | W/A/S/D o flechas · ver comentarios del código para luces y día/noche |
+| `P09_MaquinaEstados` | Animación por máquina de estados (perro por partes y pelota) | W/A/S/D o flechas · ver comentarios del código para la animación |
 
 ## Notas técnicas
 
