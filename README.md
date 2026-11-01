@@ -23,7 +23,7 @@ cada proyecto las encuentra con rutas relativas (archivo `Comun.props`).
 | `P01_Dibujo2D` | Dibujo de primitivas en 2D | — |
 | `P02_ProyeccionesTransformaciones` | Proyecciones y transformaciones básicas (4 cubos) | W/S, A/D, PgUp/PgDn mueven la cámara; flechas la rotan |
 | `P03_ModeladoGeometrico` | Modelado geométrico (mesa) | W/S, A/D, PgUp/PgDn mueven la cámara; flechas y Q/E la rotan |
-| `P04_ModeladoJerarquico` | Modelado jerárquico (brazo con 3 dedos) | Cámara: W/S, A/D, ↑/↓, ←/→ · Hombro R/F · Codo T/G · Muñeca Y/H · Dedo 1 U/J, I/K · Dedo 2 O/L, P/M · Dedo 3 7/8, 9/0 |
+| `P04_ModeladoJerarquico` | Modelado jerárquico (brazo con 3 dedos) | Cámara: W/S, A/D, ↑/↓, ←/→ (girar) · Hombro R/F · Codo T/G · Muñeca Y/H · Dedo 1 U/J, I/K · Dedo 2 O/L, P/M · Dedo 3 7/8, 9/0 |
 | `P05_CargaModelos` | Carga de modelos y cámara sintética (perros y gatos) | W/A/S/D o flechas para moverse; mouse para girar |
 | `P06_Texturizado` | Texturizado (recortes y mosaico con transparencia) | W/A/S/D o flechas para moverse; mouse para girar |
 | `P07_MaterialesIluminacion` | Materiales e iluminación (2 luces) | W/A/S/D o flechas · O/L mueven la luz 1 · I/K mueven la luz 2 |
