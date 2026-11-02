@@ -218,7 +218,7 @@ int main() {
 
 		// --- ANTEBRAZO ---
 		model = glm::translate(modelTemp, glm::vec3(1.5f, 0.0f, 0.0f));
-		model = glm::rotate(model, glm::radians(codo), glm::vec3(0.0f, 0.0f, 1.0f));
+		model = glm::rotate(model, glm::radians(codo), glm::vec3(0.0f, 1.0f, 0.0f));
 		modelTemp = model = glm::translate(model, glm::vec3(1.0f, 0.0f, 0.0f));
 		model = glm::scale(model, glm::vec3(2.0f, 1.0f, 1.0f));
 		color = glm::vec3(1.0f, 0.0f, 0.0f); // Rojo
